@@ -1,0 +1,6 @@
+- name: Moses
+  description: >
+    A statistical machine translation system that allows you to automatically
+    train translation models for any language pair. Check the <code>fscorer</code>
+    branch for scripts designed for automatic grammatical error correction.
+  url: http://www.statmt.org/moses/

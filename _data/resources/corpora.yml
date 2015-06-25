@@ -1,0 +1,22 @@
+# Each resource entry consists of the following attributes:
+# * name - corpus name
+# * description - short description of the resource
+# * url - URL to the resource or its website
+# * paper - a key of the bibliography related to the resource
+# * annotated - a boolean indicator whether a corpus is annotated
+
+- name: The NUS Corpus of Learner English
+  description: >
+    The corpus of about 1,400 students essays on a wide range of topics, such
+    as environmental pollution, healthcare, etc., annotated by professional
+    English instructors with error tags and corrections within 28 error
+    categories.
+  url: http://ilo.nus.edu.sg/for-industry/online-software-licences/m-z-online-software-licences/nus-corpus-of-learner-english-nucle
+  annotated: true
+  size: about 1,400 essays
+
+- name: The WikEd error corpus ver. 1.0
+  description: A publicly available large corpus of corrective edits extracted from English Wikipedia.
+  url: http://romang.home.amu.edu.pl/wiked/wiked.html
+  size: about 55M sentences
+  paper: grundkiewicz2014wiked

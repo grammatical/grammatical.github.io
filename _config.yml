@@ -1,0 +1,42 @@
+# Site settings
+title: grammatical.github.io
+subtitle: Automatic Grammatical Error Correction
+email: your@email.com
+description: > # this means to ignore newlines until "baseurl:"
+  This webpage collects in one place all research material related to the
+  automatic grammatical error correction field, e.g. publications, resources,
+  tools, etc.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://grammatical.github.io" # the base hostname & protocol for your site
+github_username: grammatical
+
+# Build settings
+markdown: kramdown
+gems: ['jekyll/scholar']
+
+# Default variables 
+defaults:
+  - scope:
+      path: ""
+    values:
+      menu: false
+
+# jekyll-scholar settings
+scholar:
+  style: association-for-computational-linguistics
+  locale: en
+
+  sort_by: author
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: grammatical.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+
+  categories_dir: publications/category
+  categories_layout: bib_category.html
+
+  query: "@*"
