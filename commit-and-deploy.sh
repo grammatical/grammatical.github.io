@@ -1,6 +1,6 @@
 #!/bin/bash -v
 
-git commit -a -m 'Commit local changes to Jekyll sources'
+#git commit -a -m 'Commit local changes to Jekyll sources'
 git up
 git push
 jekyll build

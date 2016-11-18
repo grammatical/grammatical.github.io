@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.4;
   font-weight: 300;
@@ -451,16 +451,16 @@ pre {
     color: #099; }
 
 .bibtex-pdf {
-  background-image: url("/img/pdf_icon_16x16.png"); }
+  /*background-image: url('/img/pdf_icon_16x16.png');*/ }
 
 .bibtex-bib {
-  background-image: url("/img/tex_icon_16x16.png"); }
+  /*background-image: url('/img/bib_icon_32x32.png');*/ }
 
 .bibtex-pdf, .bibtex-bib {
   background-repeat: no-repeat;
   background-position: center;
   height: 16px;
-  width: 20px;
+  width: 32px;
   display: inline-table; }
 
 .bibtex-keywords {
