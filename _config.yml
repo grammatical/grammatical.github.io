@@ -1,7 +1,7 @@
 # Site settings
 title: grammatical.github.io
 subtitle: Automatic Grammatical Error Correction
-email: your@email.com
+email:
 description: > # this means to ignore newlines until "baseurl:"
   This webpage collects in one place all research material related to the
   automatic grammatical error correction field, e.g. publications, resources,
@@ -13,8 +13,13 @@ github_username: grammatical
 # Build settings
 markdown: kramdown
 gems: ['jekyll/scholar']
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
 
-# Default variables 
+# Default variables
 defaults:
   - scope:
       path: ""
@@ -28,6 +33,8 @@ scholar:
 
   sort_by: author
   order: ascending
+  group_by: year
+  group_order: descending
 
   source: ./_bibliography
   bibliography: grammatical.bib
