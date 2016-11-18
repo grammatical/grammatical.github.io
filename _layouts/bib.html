@@ -1,6 +1,6 @@
 ---
 layout: page
-title: bla
+title: bib
 ---
 
 <span class="bibtex-entry" id="{{ entry.key }}">
@@ -20,10 +20,10 @@ title: bla
   {{ entry.year }}.
 
   {% if entry.url %}
-    <a class="bibtex-pdf" href="{{ entry.url }}"></a>
+    <a class="bibtex-pdf" href="{{ entry.url }}">[pdf]</a>
   {% endif %}
 
-  <a class="bibtex-bib" href="#bibtex-source-{{ entry.key }}" data-toggle="collapse"></a>
+  <a class="bibtex-bib" href="#bibtex-source-{{ entry.key }}" data-toggle="collapse">[bib]</a>
 
   {% keywords entry.keywords %}
 

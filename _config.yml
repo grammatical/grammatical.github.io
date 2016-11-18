@@ -12,7 +12,8 @@ github_username: grammatical
 
 # Build settings
 markdown: kramdown
-gems: ['jekyll/scholar']
+gems:
+  - jekyll/scholar
 exclude:
   - Gemfile
   - Gemfile.lock
